@@ -1,21 +1,33 @@
 /* New Style */
 
-body {
-  /*background-image: url(../images/anj-1.png);
+#banner {
+  position: fixed;
+  background-image: url(../images/anj-1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;*/
-}
-
-.lg {
-  background: lightgrey;
+  background-position: center center;
+  height: 65vh;
+  width: 100%;
+  z-index: -10
 }
 
 #topbar {
   position: fixed;
   width: 100%;
   z-index: 1000;
+  background-color: rgba(93,14,22 , 0.2 );
+  border-bottom: 1px solid black;
 }
+
+/* --- */
+.lg {
+  background-color: lightgrey;
+}
+.s1{
+  background-color: black;
+  opacity: 0.7;
+}
+/* --- */
 
 #top-text {
   display: inline-block;
@@ -28,8 +40,12 @@ body {
 }
 
 #grand-container {
-  padding-top: 525px;
-  min-height: 325vh;
+  padding-top: 65vh;
+}
+
+.container-fluid {
+  background-color: white;
+  min-height: 225vh;
 }
 
 #navigate {
