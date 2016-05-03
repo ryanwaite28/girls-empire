@@ -1,0 +1,113 @@
+/* New Style */
+
+body {
+  /*background-image: url(../images/anj-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;*/
+}
+
+.lg {
+  background: lightgrey;
+}
+
+#topbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+#top-text {
+  display: inline-block;
+  width: 33.33337%;
+  text-align: center;
+  margin: 0px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+}
+
+#grand-container {
+  padding-top: 525px;
+  min-height: 325vh;
+}
+
+#navigate {
+  float: left;
+  width: 33.33337%;
+}
+
+#navigate ul {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+#navigate ul li {
+  list-style: none;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+  padding: 0px 20px 0px 20px;
+}
+
+#menu-div {
+  width: 33.33337%;
+  float: right;
+}
+#m-i {
+  width: 160px;
+  display: block;
+  margin: auto;
+}
+
+#sign-up , #sign-in {
+  margin-top: 15px;
+}
+
+#sign-up {
+
+}
+
+#sign-in {
+
+}
+
+#signin-modal input , #signup-modal input {
+  margin-bottom: 10px;
+  max-width: 90%;
+}
+
+
+/* --- */
+
+.s-modal {
+  position: fixed;
+  top: 20vh;
+  left: 0px;
+  right: 0px;
+  width: 50%;
+  min-height: 30vh;
+  color: black;
+  margin: auto;
+  border: solid;
+  padding: 1em;
+  background: white;
+}
+#closer {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 10px;
+}
+
+#drop-arrow {
+  display: none;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+}

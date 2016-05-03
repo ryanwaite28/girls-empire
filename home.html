@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Angelique | Girls Empire</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="http://ryanwaite28.github.io/my-cdn/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="http://ryanwaite28.github.io/my-cdn/css/emerald.css"/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 825px)" href="stylesheets/mobile-style.css">
+		<link rel="icon" type="image/" size="20x20" href=""/>
+		<script src="http://ryanwaite28.github.io/my-cdn/js/angular.js"></script>
+		<script src="http://ryanwaite28.github.io/my-cdn/js/jquery.js"></script>
+		<script src="http://ryanwaite28.github.io/my-cdn/js/emerald.js"></script>
+		<script src="scripts/script.js"></script>
+
+	</head>
+
+	<body ng-app="myApp" ng-controller="masterCtrl">
+
+		<!-- -->
+		<div class="transition" id="topbar">
+
+			<h1 id="top-text"><b>Girls Empire</b></h1>
+
+			<img class="transition" id="drop-arrow" src="images/arrow-1.png">
+
+			<nav id="navigate">
+				<ul>
+					<li><b>Home</b></li>
+					<li><b>Blog</b></li>
+					<li><b>shopping</b></li>
+				</ul>
+			</nav>
+
+			<div id="menu-div">
+
+				<div id="m-i">
+					<input id="sign-in" type="button" ng-click="showModal('in')" value="Sign In"/>
+					<dialog id="signin-modal" class="s-modal" close>
+						<span id="closer" class="glyphicon glyphicon-remove" ng-click="closeModal()"></span>
+						<h3 class="text-center">Sign In</h3>
+						<hr>
+						<input id="" class="middlr" type="email" placeholder="Email"/>
+						<input id="" class="middlr" type="password" placeholder="Password"/>
+						<input id="" class="middlr" type="submit" value="Submit"/>
+					</dialog>
+
+					<input id="sign-up" type="button" ng-click="showModal('up')" value="Sign Up"/>
+					<dialog id="signup-modal" class="s-modal" close>
+						<span id="closer" class="glyphicon glyphicon-remove" ng-click="closeModal()"></span>
+						<h3 class="text-center">Sign Up</h3>
+						<hr>
+						<input id="" class="middlr" type="text" placeholder="First Name"/>
+						<input id="" class="middlr" type="text" placeholder="Last Name"/>
+						<input id="" class="middlr" type="email" placeholder="Email"/>
+						<input id="" class="middlr" type="password" placeholder="Password"/>
+						<input id="" class="middlr" type="submit" value="Submit"/>
+					</dialog>
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- -->
+		<div id="grand-container">
+
+			<div class="container-fluid">
+
+				<p class="text-center" id="demo">This</p>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
