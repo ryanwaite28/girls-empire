@@ -29,6 +29,7 @@ App.controller('masterCtrl', function($scope) {
 
 		if( cWidth > 815 ) {
 			if( nav.css('display') == 'none' ) {
+				dropArrow.removeClass('rotate');
 				nav.show('fast');
 				menuDiv.show('fast');
 			}
