@@ -2,11 +2,10 @@
 
 #banner {
   position: fixed;
-  background-image: url(../images/anj-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 65vh;
+  height: 70vh;
   width: 100%;
   z-index: -10
 }
@@ -15,13 +14,19 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background-color: rgba(93,14,22 , 0.2 );
+  background-color: rgba(93,54,22 , 0.5 );
   border-bottom: 1px solid black;
 }
 
 /* --- */
 .lg {
   background-color: lightgrey;
+}
+.whitey {
+  background-color: white;
+}
+.bg-tsp {
+  background: transparent;
 }
 .s1{
   background-color: black;
@@ -44,8 +49,7 @@
 }
 
 .container-fluid {
-  background-color: white;
-  min-height: 225vh;
+  min-height: 575vh;
 }
 
 #navigate {
